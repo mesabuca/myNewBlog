@@ -6,9 +6,12 @@ ruby '2.5.3'
 # Haml (HTML Abstraction Markup Language)
 gem 'haml', '~> 5.1', '>= 5.1.1'
 gem 'haml-rails', '~> 2.0', '>= 2.0.1'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+# Sprocket
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+# JQuery rails
+gem 'jquery-rails'
 # Forms made easy!
 gem 'simple_form', '~> 4.1'
 # Use sqlite3 as the database for Active Record
@@ -21,6 +24,9 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
+
+# Bootstrap 4
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
