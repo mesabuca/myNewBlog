@@ -24,9 +24,10 @@
           %li.nav-item
             %a.nav-link{ href: new_post_path } New Post
 
-        %form.form-inline.my-2.my-lg-0
-          %input.form-control.mr-sm-2{ placeholder: 'Search',
-                                       type: 'search' }/
-          %button.btn.btn-outline-success.my-2.my-sm-0{ type: 'submit' } Search
+        = search_form_for @q, class: 'form-inline my-2my-lg-0', url: search_path do |f|
+          = f.search_field :title_cont, placeholder: 'Search',
+                                   class: 'form-control mr-sm-2',
+                                   type: 'search'
+          = f.submit class: 'btn btn-outline-success my-2 my-sm-0'
 
     = yield
