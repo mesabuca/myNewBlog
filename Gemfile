@@ -8,6 +8,8 @@ gem 'haml', '~> 5.1', '>= 5.1.1'
 gem 'haml-rails', '~> 2.0', '>= 2.0.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+# User authentication
+gem 'devise', '~> 4.6', '>= 4.6.2'
 # Sprocket
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 # JQuery rails
