@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.3'
 # Ransack
 gem 'ransack', '~> 2.1', '>= 2.1.1'
 # User authentication
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 # Sprocket
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 # JQuery rails
